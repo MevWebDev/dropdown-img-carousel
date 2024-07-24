@@ -74,9 +74,9 @@ body main .img-carousel {
 }
 body main .img-carousel .images {
   width: 1150px;
-  height: 225px;
+  height: 250px;
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,14 +85,19 @@ body main .img-carousel .images img {
   aspect-ratio: 16/9;
   width: 348px;
   height: 200px;
+  brightness: 0.1;
   display: flex;
   justify-content: center;
   align-items: center;
   color: black;
+  transition: 0.5s all;
 }
 body main .img-carousel .images .previous,
 body main .img-carousel .images .next {
   opacity: 80%;
+}
+body main .img-carousel .images .current {
+  animation: scale 0.5s ease-in-out forwards;
 }
 body main .img-carousel .buttons {
   display: flex;
@@ -107,4 +112,13 @@ body main .img-carousel .buttons button {
 }
 body main .img-carousel .buttons .active {
   background-color: black;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
 }/*# sourceMappingURL=style.css.map */
