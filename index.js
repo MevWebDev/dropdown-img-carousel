@@ -63,6 +63,7 @@ function generateImages(arr, index1, index2, index3) {
   imagesDiv.appendChild(img1);
   const img2 = document.createElement("img");
   img2.src = arr[index2].src;
+  img2.classList.add("current");
   imagesDiv.appendChild(img2);
   const img3 = document.createElement("img");
   img3.classList.add("next");
