@@ -95,6 +95,10 @@ body {
           align-items: center;
           color: black;
         }
+        .previous,
+        .next {
+          opacity: 80%;
+        }
       }
       .buttons {
         display: flex;

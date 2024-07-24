@@ -89,6 +89,10 @@ body main .img-carousel .images img {
   align-items: center;
   color: black;
 }
+body main .img-carousel .images .previous,
+body main .img-carousel .images .next {
+  opacity: 80%;
+}
 body main .img-carousel .buttons {
   display: flex;
   gap: 0.5rem;
