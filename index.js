@@ -71,8 +71,6 @@ function generateImages(arr, index1, index2, index3) {
 }
 
 function carousel() {
-  const buttons = document.querySelectorAll(".btn");
-
   const previous = document.querySelector(".previous");
   const next = document.querySelector(".next");
 
