@@ -35,11 +35,25 @@ body {
         position: absolute;
         top: 120%;
         left: 5rem;
-        padding: 1rem;
-        border-radius: 0.5rem;
+        padding: 2rem;
+        border-radius: 0.75rem;
         flex-direction: column;
-        gap: 0.5rem;
+        gap: 2rem;
         box-shadow: 0 0 0.5rem 0.1rem rgba(0, 0, 0, 0.2);
+      }
+      .target-div {
+        cursor: pointer;
+        color: #b1b1b1;
+        p {
+          margin: 0;
+        }
+
+        &:hover {
+          color: #696969;
+          p {
+            color: black;
+          }
+        }
       }
     }
   }

@@ -31,9 +31,22 @@ body nav .dropdown .dropdown-content {
   position: absolute;
   top: 120%;
   left: 5rem;
-  padding: 1rem;
-  border-radius: 0.5rem;
+  padding: 2rem;
+  border-radius: 0.75rem;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 2rem;
   box-shadow: 0 0 0.5rem 0.1rem rgba(0, 0, 0, 0.2);
+}
+body nav .dropdown .target-div {
+  cursor: pointer;
+  color: #b1b1b1;
+}
+body nav .dropdown .target-div p {
+  margin: 0;
+}
+body nav .dropdown .target-div:hover {
+  color: #696969;
+}
+body nav .dropdown .target-div:hover p {
+  color: black;
 }/*# sourceMappingURL=style.css.map */
