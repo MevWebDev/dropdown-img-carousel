@@ -59,11 +59,13 @@ function generateImages(arr, index1, index2, index3) {
   imagesDiv.innerHTML = "";
   const img1 = document.createElement("img");
   img1.src = arr[index1].src;
+  img1.classList.add("previous");
   imagesDiv.appendChild(img1);
   const img2 = document.createElement("img");
   img2.src = arr[index2].src;
   imagesDiv.appendChild(img2);
   const img3 = document.createElement("img");
+  img3.classList.add("next");
   img3.src = arr[index3].src;
   imagesDiv.appendChild(img3);
 }
