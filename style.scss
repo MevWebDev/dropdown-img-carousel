@@ -42,6 +42,7 @@ body {
         flex-direction: column;
         gap: 2rem;
         box-shadow: 0 0 0.5rem 0.1rem rgba(0, 0, 0, 0.2);
+        z-index: 1;
       }
       .target-div {
         cursor: pointer;
