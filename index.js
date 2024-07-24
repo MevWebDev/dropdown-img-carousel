@@ -48,7 +48,13 @@ const images = [
   },
 ];
 
+const buttons = document.querySelectorAll(".btn");
+
 function generateImages(arr, index1, index2, index3) {
+  buttons.forEach((button) => {
+    button.classList.remove("active");
+  });
+  buttons[idx].classList.add("active");
   const imagesDiv = document.querySelector(".images");
   imagesDiv.innerHTML = "";
   const img1 = document.createElement("img");
